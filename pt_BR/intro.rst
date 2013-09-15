@@ -1,24 +1,26 @@
-Introduction
-============
+Introdução
+==========
 
-Silex is a PHP microframework for PHP 5.3. It is built on the shoulders of
-Symfony2 and Pimple and also inspired by sinatra.
+Silex é um microframework para o PHP 5.3. Ele é construído baseado no `Symfony2`_
+e no `Pimple`_ e também inspirado pelo `Sinatra`_.
 
-A microframework provides the guts for building simple single-file apps. Silex
-aims to be:
+Um microframework fornece o necessário para construir aplicações simples de um único
+arquivo. O Silex pretende ser:
 
-* *Concise*: Silex exposes an intuitive and concise API that is fun to use.
+* *Conciso*: O Silex expõe uma API intuitiva e concisa que é divertida de usar.
 
-* *Extensible*: Silex has an extension system based around the Pimple micro
-  service-container that makes it even easier to tie in third party libraries.
+* *Extensível*: O Silex tem um sistema de extensão baseado em torno do micro
+service-container Pimple que torna mais fácil conectar a bibliotecas de 
+terceiros.
 
-* *Testable*: Silex uses Symfony2's HttpKernel which abstracts request and
-  response. This makes it very easy to test apps and the framework itself. It
-  also respects the HTTP specification and encourages its proper use.
+* *Testável*: O Silex usa o HttpKernel do Symfony2 que abstrai o request e response. 
+Isso facilita os testes das aplicações e do próprio framework. O Silex também respeita
+a especificação HTTP e incentiva o uso adequado da especificação.
 
-In a nutshell, you define controllers and map them to routes, all in one step.
+Em poucas palavras, você define os controllers e os mapeia em rotas em uma única
+etapa.
 
-**Let's go!**::
+**Vamos!**::
 
     // web/index.php
 
@@ -32,17 +34,21 @@ In a nutshell, you define controllers and map them to routes, all in one step.
 
     $app->run();
 
-All that is needed to get access to the Framework is to include the
+Tudo o que é necessário para ter acesso ao Framework é incluir o
 autoloader.
 
-Next we define a route to ``/hello/{name}`` that matches for ``GET`` requests.
-When the route matches, the function is executed and the return value is sent
-back to the client.
+Em seguida definimos uma rota para ``/hello/{name}`` que corresponde ao 
+request ``GET``.
+Quanto a rota corresponde, a função é executada e o valor de retorno é 
+enviado de volta ao cliente.
 
-Finally, the app is run. Visit ``/hello/world`` to see the result. It's really
-that easy!
+Finalmente, o aplicativo é executado. Visite ``/hello/world`` para ver o resultado.
+É realmente muito fácil!
 
-Installing Silex is as easy as it can get. `Download`_ the archive file,
-extract it, and you're done!
+Instalar o Silex é tão fácil quanto baixá-lo. Faça `Download`_ e extraia o arquivo, 
+e você está pronto!
 
 .. _Download: http://silex.sensiolabs.org/download
+.. _Symfony2: http://symfony.com/
+.. _Pimple: http://pimple.sensiolabs.org/
+.. _Sinatra: http://www.sinatrarb.com/
