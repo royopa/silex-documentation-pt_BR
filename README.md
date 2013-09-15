@@ -3,7 +3,6 @@ silex-documentation-pt_BR
 
 Tradução da documentação do microframework Silex para o idioma pt_BR
 
-## Tradução
+## A documentação em inglês pode ser acessada pelo endereço abaixo:
 
-Iremos traduzir a documentação contida na pasta docs do Silex.
-
+* [Documentation](http://silex.sensiolabs.org/documentation)
