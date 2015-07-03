@@ -7,6 +7,7 @@ sys.path.append(os.path.abspath('_exts'))
 extensions = []
 master_doc = 'index'
 highlight_language = 'php'
+language = 'pt_BR'
 
 project = u'Silex'
 copyright = u'2010 Fabien Potencier'
